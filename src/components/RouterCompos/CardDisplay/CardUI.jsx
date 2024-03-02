@@ -6,7 +6,7 @@ function CardUI() {
 
 
     var i = 0;
-    var txt1 = "                                     Hi oijrjrjtij9ij.....!  <<               gggggggggjgjgjgdlijiggijg. <<<                jhoitjhrtijhorihotrobotrh...!                                                                           > ffgiifnvirenvernvrjnvilegienjv jrnnrpunrivjn;vuru;;rwn.  <<                  jnnvnvnnvke v;o g gorijgriprigp9rug....! <<                           jfnirjnvinrrrrrrrrrrrrrrrrreknv;ern; jn eijn nj ...!                                                     > Everything about you is always intresting for me...!                     << kjnrrjvvvvvvvvvvvvvvvvvvvvvveijnvin r nvuenvurnvurnvp9unrv ...!                                                     > oirvvvvvvvvvvvvvvvvvvvveivor ivo rvhurevurvir....!                    << kmrieivjvhuiivueugrhgoiuhcgor hiurliqvnrlngour....!                                                             >thank you.....! |                  <<<< uhgeg9ugw9ugutngoutgn ...!";
+    var txt1 = "                                     Wishing you all the success and joy in life  <<               Here's to conquering forthcoming hurdles of life ...  <<<                TOGETHER ... !                                      >Cheers to another year of epicness !                   <<<<  Janamdin Mubaarak!";
     var speed = 160;
     function typeWriter() {
         if (i < txt1.length) {

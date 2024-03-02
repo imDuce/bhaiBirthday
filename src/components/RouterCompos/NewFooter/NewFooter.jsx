@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import footImg from '../../../wishes/paws1.png'
+import footImg from '../../../pics/ishiProfile.jpg'
 import svtImg from '../../RouterCompos/svtIns.jpg'
 
 
@@ -34,7 +34,7 @@ function NewFooter() {
       mx-auto md:justify-between md:flex 
       border border-gray-300 items-center'>
         <div className='z-10 p-3'>
-          <Link to='/' className='flex items-center'>
+          <Link to='https://www.youtube.com/@wanderer471' target='_blank' className='flex items-center'>
             {/* <img src={svtImg} */}
             <img src={footImg}
               alt="logo"
@@ -49,21 +49,21 @@ function NewFooter() {
             {/* <h2 className='mb-6 text-sm font-semibold text-pink-900 uppercase'>Heading2</h2> */}
             <ul className='text-purple-900 sm:flex sm:flex-col sm:gap-y-4
              md:flex md:flex-row md:gap-x-16 md:px-10 md:py-12 font-semibold '>
-              <li>
+              {/* <li>
                 <Link to='/credits' className='hover:underline hover:text-black'>
                   Credits
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link to='/message' className='hover:underline hover:text-black'>
-                  Message
+                <Link to='https://bhai-pangram.vercel.app/'  target='_blank' className='hover:underline hover:text-black'>
+                  Slides
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to='disclaimer' className='hover:underline hover:text-black'>
                   Disclaimer
                 </Link>
-              </li>
+              </li> */}
 
             </ul>
           </div>

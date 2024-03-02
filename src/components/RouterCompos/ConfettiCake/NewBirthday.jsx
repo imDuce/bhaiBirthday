@@ -40,7 +40,7 @@ const NewBirthday = () => {
 
       <div className='NewBdyOfConf relative mt-2 pt-2'>
 
-        {isLoad && <CycleDisplay />}
+        {/* {isLoad && <CycleDisplay />} */}
 
 
 
@@ -226,14 +226,14 @@ const NewBirthday = () => {
               </g>
             </svg>
           </div> */}
-        <div className='absolute top-[55%] left-[30%]'>
+        <div className='absolute top-[67%] left-[29.5%]'>
           <BDText />
         </div>
-        <div className='absolute top-[73%] left-[30%]'>
+        <div className='absolute top-[83%] left-[39%]'>
           <NameText />
         </div>
 
-        <div className='absolute top-[15%] left-[30%]'>
+        <div className='absolute top-[25%] left-[29.5%]'>
           {/* {isTopTextLoad && <TopText />}  */}
           <TopText />
         </div>

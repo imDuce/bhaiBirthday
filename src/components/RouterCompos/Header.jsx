@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import Menu from '../Menu'
+import hbdd from "../../pics/hbd.mp3"
 
 import headImg from '../../wishes/gif6.gif'
 
@@ -9,7 +10,8 @@ import headImg from '../../wishes/gif6.gif'
 function Header() {
     return (
         <header className='top-0 z-50 shadow'>
-            <nav className='bg-white mx-auto px-4 py-1.5 border-black sm:p-2'>
+            <nav className='bg-white mx-auto px-4 py-1.5 border-black '>
+            {/* sm:p-2 */}
 
                 <div className='flex flex-wrap justify-between items-center  max-w-screen-xl'>
 
@@ -21,14 +23,15 @@ function Header() {
                                 alt="logo" />
                         </Link>
                     </div>
-                    <div className="justify-between items-center w-full sm:flex sm:w-auto sm:order-1">
+                    <div className="sm:flex justify-between items-center w-full sm:w-auto md:order-4  sm:order-1">
 
                         <ul className='sm:hidden md:flex lg:gap-x-3 mt-4 font-medium sm:flex-row sm:space-x-8 sm:mt-0'>
+                        {/* sm:hidden  */}
                             <li>
 
                                 <NavLink to='/' className={({ isActive }) =>
-                                    `${isActive ? 'text-pink-600' : 'text-gray-500'} text-black duration-200
-                                hover:text-orange-700 border-gray-100 border-b block py-2 px-3 lg:py-0`
+                                    `${isActive ? 'text-purple-900' : 'text-gray-500'} text-black duration-200
+                                hover:text-purple-600 border-gray-100 border-b block py-2 px-3 lg:py-0`
 
 
                                 }>
@@ -40,8 +43,8 @@ function Header() {
                             <li>
 
                                 <NavLink to='/about' className={({ isActive }) =>
-                                    `${isActive ? 'text-pink-600' : 'text-gray-500'} text-black duration-200
-                                hover:text-orange-700 border-gray-100 border-b block py-2 px-3 lg:py-0`
+                                    `${isActive ? 'text-purple-900' : 'text-gray-500'} text-black duration-200
+                                hover:text-purple-600 border-gray-100 border-b block py-2 px-3 lg:py-0`
 
                                 }>
                                     Card
@@ -54,8 +57,8 @@ function Header() {
 
 
                                 <NavLink to='/contact' className={({ isActive }) =>
-                                    `${isActive ? 'text-pink-600' : 'text-gray-500'} text-black duration-200
-                                hover:text-orange-700 border-gray-100 border-b block py-2 px-3 lg:py-0`
+                                    `${isActive ? 'text-purple-900' : 'text-gray-500'} text-black duration-200
+                                hover:text-purple-600 border-gray-100 border-b block py-2 px-3 lg:py-0`
 
                                 }>
                                     Carousel
@@ -65,11 +68,11 @@ function Header() {
                             <li>
 
                                 <NavLink to='/smile' className={({ isActive }) =>
-                                    `${isActive ? 'text-pink-600' : 'text-gray-500'} text-black duration-200
-                                    hover:text-orange-700 border-gray-100 border-b block py-2 px-3 lg:py-0`
+                                    `${isActive ? 'text-purple-900' : 'text-gray-500'} text-black duration-200
+                                    hover:text-purple-600 border-gray-100 border-b block py-2 px-3 lg:py-0`
 
                                 }>
-                                    Smile
+                                    Memories
                                 </NavLink>
 
                             </li>
@@ -93,7 +96,7 @@ function Header() {
 
 
 
-                    <div className='sm:order-2'>
+                    <div className='sm:order-3'>
 
                         <Menu />
 
@@ -106,6 +109,7 @@ function Header() {
 
                 </div>
             </nav>
+            <audio src={hbdd} autoPlay/>
 
         </header>
     )

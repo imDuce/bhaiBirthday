@@ -77,7 +77,7 @@ export default function Menu() {
                             hover:text-orange-700 border-b border-gray-400 my-8 uppercase`
 
                             }>
-                                Smile
+                               Slides
                             </NavLink>
                         </li>
 

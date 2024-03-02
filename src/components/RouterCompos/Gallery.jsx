@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../pics/cutout5.png'
+import img from '../../pics/edt/bros.png'
 import Compo from './CSlider'
 import './style.css'
 

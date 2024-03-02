@@ -5,9 +5,11 @@
 
 #bike {
     position: absolute;
-    top: -10%;
+    top: -1%;
     left: 30px;
-    animation: fadeInOut 14s linear, moveRight 14s linear;
+    animation: fadeInOut 20s , moveRight 20s linear;
+    /* animation: slideInFromLeft 14s ease forwards, slideOutToRight 14s ease forwards; */
+    /* animation-delay: 10s; */
 }
 
 @keyframes moveRight {
@@ -16,14 +18,14 @@
     }
 
     to {
-        left: calc(100% - 250px);
+        left: calc(100% - 50px);
+        /* right: 0; */
     }
 }
 
 @keyframes fadeInOut {
 
-    0%,
-    100% {
+    0% {
         opacity: 0;
     }
 
@@ -36,9 +38,43 @@
     }
 
     75% {
-        opacity: 0.95;
+        opacity: 0.7;
     }
+    90% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 0;
+    }
+    /* 97% {
+        opacity: 0.3;
+    } */
 }
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideOutToRight {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+
 
 #a {
     width: 340px;

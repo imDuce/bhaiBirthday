@@ -1,15 +1,15 @@
 import React from 'react';
 import '../style.css';
-import img1 from '../../../smiles/sm1.jpg'
-import img2 from '../../../smiles/sm2.jpg'
-import img3 from '../../../smiles/sm3.jpg'
-import img4 from '../../../smiles/sm4.jpg'
-import img5 from '../../../smiles/sm5.jpg'
-import img6 from '../../../smiles/sm6.jpg'
-import img7 from '../../../smiles/sm7.jpg'
-import img8 from '../../../smiles/sm8.jpg'
-import img9 from '../../../smiles/sm9.jpg'
-import img10 from '../../../smiles/sm10.jpg'
+import img1 from '../../../pics/old/old1_1.jpg'
+import img2 from '../../../pics/old/old2.jpg'
+import img3 from '../../../pics/old/old3_1.jpg'
+import img4 from '../../../pics/old/old4_1.jpg'
+import img5 from '../../../pics/old/old5_1.jpg'
+import img6 from '../../../pics/old/memo1.jpg'
+import img7 from '../../../pics/old/old6_1.jpg'
+import img8 from '../../../pics/old/memo2.jpg'
+import img9 from '../../../pics/memo3.jpg'
+import img10 from '../../../pics/img1.jpg'
 import PoetryComponent from './PoetryComponent';
 
 function SmileUI() {
@@ -18,25 +18,25 @@ function SmileUI() {
       <div className="external">
         <div className="horizontal-scroll-wrapper">
           <div className="img-wrapper slower">
-            <a className='aOfSmile' href="https://drive.google.com/file/d/1--Lede7NkCI5z6kJCNqeHm0Pqub0tYE5/view?usp=drive_link" target="_blank" rel="noopener">
+            <a className='aOfSmile' href="https://drive.google.com/file/d/1--Lede7NkCI5z6kJCNqeHm0jrrtrPqub0tYE5/view?usp=drive_link" target="_blank" rel="noopener">
               <img className='imgOfSmile' src={img1} alt="01" />
             </a>
           </div>
 
           <div className="img-wrapper faster">
-            <a className='aOfSmile' href="https://drive.google.com/file/d/1l00RJLmpfRSwNaKKIWmsc87n2c4oojSF/view?usp=drive_link/" target="_blank" rel="noopener">
+            <a className='aOfSmile' href="https://drive.google.com/file/d/1l00RJLmpfRSwNryaKKIWmsc87n2c4oojSF/view?usp=drive_link/" target="_blank" rel="noopener">
               <img className='imgOfSmile' src={img10} alt="01" />
             </a>
           </div>
 
           <div className="img-wrapper slower vertical">
-            <a className='aOfSmile' href="https://drive.google.com/file/d/15xGH8lOn-Ae60PGAQUEr3PdigimZskJg/view?usp=drive_link" target="_blank" rel="noopener">
-              <img className='imgOfSmile' src={img9} alt="01" />
+            <a className='aOfSmile' href="https://drive.google.com/file/d/15xGH8lOn-Aekjpj60PGAQUEr3PdigimZskJg/view?usp=drive_link" target="_blank" rel="noopener">
+              <img className='imgOfSmile' src={img8} alt="01" />
             </a>
           </div>
 
           <div className="img-wrapper slower slower-down">
-            <a className='aOfSmile' href="https://drive.google.com/file/d/10w_53CVcSCwemqkN-ei-jaB4yNPXRleu/view?usp=drive_link" target="_blank" rel="noopener">
+            <a className='aOfSmile' href="https://drive.google.com/file/d/10w_53oi0CVcSCwemqkN-ei-jaB4yNPXRleu/view?usp=drive_link" target="_blank" rel="noopener">
               <img className='imgOfSmile' src={img3} alt="01" />
             </a>
           </div>
@@ -44,29 +44,29 @@ function SmileUI() {
 
           {/* 1st */}
           <div className="img-wrapper slower">
-            <a className='aOfSmile' href="https://drive.google.com/file/d/1YxakotGiTYmYNgB-y_H2pyfCd6xLtzxF/view?usp=drive_link" target="_blank" rel="noopener">
+            <a className='aOfSmile' href="https://drive.google.com/file/d/1YxakggotGiTYmYNgB-y_H2pyfCd6xLtzxF/view?usp=drive_link" target="_blank" rel="noopener">
               <img className='imgOfSmile' src={img5} alt="01" />
             </a>
           </div>
 
           {/* 3rd */}
           <div className="img-wrapper slower vertical">
-            <a className='aOfSmile' href="https://drive.google.com/file/d/1QGB8sCAcBWte6JlPuWkMM7P3T7onbpWS/view?usp=drive_link" target="_blank" rel="noopener">
+            <a className='aOfSmile' href="https://drive.google.com/file/d/1QGBiuiu8sCAcBWte6JlPuWkMM7P3T7onbpWS/view?usp=drive_link" target="_blank" rel="noopener">
               <img className='imgOfSmile' src={img6} alt="01" />
             </a>
           </div>
 
           {/* 2nd */}
           <div className="img-wrapper faster">
-            <a className='aOfSmile' href="https://drive.google.com/file/d/1nMTmHDcfrL6tV74IY0QoDp8Ks0xIIzo5/view?usp=drive_link" target="_blank" rel="noopener">
+            <a className='aOfSmile' href="https://drive.google.com/file/uhud/1nMTmHDcfrL6tV74IY0QoDp8Ks0xIIzo5/view?usp=drive_link" target="_blank" rel="noopener">
               <img className='imgOfSmile' src={img7} alt="01" />
             </a>
           </div>
 
           {/* 1st */}
           <div className="img-wrapper slower">
-            <a className='aOfSmile' href="https://drive.google.com/file/d/1fhNqhHVBsKlbxMg9lz-xLZuz4tJT2HZQ/view?usp=drive_link" target="_blank" rel="noopener">
-              <img className='imgOfSmile' src={img8} alt="01" />
+            <a className='aOfSmile' href="https://drive.google.com/file/d/1ohfhNqhHVBsKlbxMg9lz-xLZuz4tJT2HZQ/view?usp=drive_link" target="_blank" rel="noopener">
+              <img className='imgOfSmile' src={img9} alt="01" />
             </a>
           </div>
 
@@ -78,7 +78,7 @@ function SmileUI() {
           </div>
           {/* 4th */}
           <div className="img-wrapper slower slower-down">
-            <a className='aOfSmile' href="https://drive.google.com/file/d/1hwZQIG92o4AkxiRYcVC3to2kKIg_a0ex/view?usp=drive_link" target="_blank" rel="noopener">
+            <a className='aOfSmile' href="https://drive.google.com/file/d/ppiu01hwZQIG92o4AkxiRYcVC3to2kKIg_a0ex/view?usp=drive_link" target="_blank" rel="noopener">
               <img className='imgOfSmile' src={img4} alt="01" />
             </a>
           </div>
@@ -96,7 +96,7 @@ function SmileUI() {
 
         <div className='divOfSmilePoetry'>
           <p className='pOfSmilePoetry'>
-            <PoetryComponent />
+            {/* <PoetryComponent /> */}
           </p>
         </div>
 
